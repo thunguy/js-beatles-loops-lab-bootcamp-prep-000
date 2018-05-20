@@ -13,9 +13,6 @@ function johnLennonFacts(facts) {
   while (i < facts.length) {
     exclaim.push(`${facts[i]}!!!`);
     i++
-    i += 1
-    i = i + 1
-  
   } 
   return exclaim
 }
