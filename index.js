@@ -11,7 +11,8 @@ function johnLennonFacts(facts) {
   
   let i = 0
   while (i < facts.length) {
-    i++;
     exclaim.push(`${facts[i]}!!!`)
-  } return exclaim
+  } 
+  i++;
+  return exclaim
 }
