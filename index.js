@@ -24,7 +24,7 @@ function iLoveTheBeatles(n) {
   do {
     love.push(`I love the Beatles!`);
     i++
-  } while (i > countdown) {
+  } while (i > n) {
     return love 
   }
 }
