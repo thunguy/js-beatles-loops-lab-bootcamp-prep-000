@@ -20,10 +20,10 @@ function johnLennonFacts(facts) {
 function iLoveTheBeatles(n) {
   var love = []
   
-  let countdown = 15
+  let i = 15
   do {
     love.push(`I love the Beatles!`);
-    countdown++
+    i++
   } while (i > countdown) {
     return love 
   }
