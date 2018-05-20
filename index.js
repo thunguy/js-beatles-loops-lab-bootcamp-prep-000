@@ -23,7 +23,7 @@ function iLoveTheBeatles(n) {
   let countdown = 15
   do {
     love.push(`I love the Beatles!`);
-    i++
+    countdown++
   } while (i > countdown) {
     return love 
   }
